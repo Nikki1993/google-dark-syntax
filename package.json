@@ -1,0 +1,15 @@
+{
+  "name": "google-dark-syntax",
+  "theme": "syntax",
+  "version": "0.0.1",
+  "description": "Syntax theme for Atom Editor based on Google Dark syntax from terminal.sexy website",
+  "keywords": [
+    "syntax",
+    "theme"
+  ],
+  "repository": "https://github.com/atom/google-dark-syntax",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}
