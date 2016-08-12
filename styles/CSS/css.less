@@ -1,0 +1,42 @@
+// This file includes scss, less and css styling all packed into one
+
+.css,
+.less,
+.scss {
+  .variable {
+    color: @orange;
+  }
+
+  .entity.name.tag {
+    color: @purple;
+
+    &.custom {
+      color: @green;
+    }
+  }
+
+  .meta {
+    &.property-list{
+      .keyword.important {
+        color: @red;
+      }
+    }
+    &.at-rule {
+      .punctuation {
+        color: @orange;
+      }
+      .keyword.control.media {
+        color: @blue;
+        .punctuation {
+          color: @blue;
+        }
+      }
+      .support.constant.media {
+        color: @grey;
+      }
+      .keyword.control.operator {
+        color: @blue;
+      }
+    }
+  }
+}
