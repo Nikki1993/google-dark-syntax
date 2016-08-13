@@ -1,13 +1,64 @@
-.source.js {
+.js {
   .storage {
     color: @orange;
   }
 
+  .constant {
+    color: @grey;
+    &.numeric {
+      color: @red;
+    }
+    &.boolean {
+      color: @blue;
+    }
+  }
+
+  .method-call {
+    .arguments {
+      .support.class {
+        color: @grey;
+      }
+      .entity.name.function {
+        color: @grey;
+      }
+    }
+    .entity.name.function {
+      color: @grey;
+    }
+  }
+
+  .function-call {
+    .entity.name.function {
+      color: @grey;
+    }
+  }
+
+  .function {
+    .entity.name.function {
+      color: @grey;
+    }
+  }
+
   .keyword {
     color: @blue;
+    &.operator {
+      color: @grey;
+      &.comparison {
+        color: @blue;
+      }
+      &.assignment {
+        color:  @blue;
+      }
+    }
   }
 
   .variable {
-    color: @syntax-text-color;
+    color: @green;
+    &.other {
+      color: @grey;
+    }
+    &.object {
+      color: @green;
+    }
   }
 }

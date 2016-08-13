@@ -1,3 +1,14 @@
+## 3.2.0
+
+### User Changes
+
+* Remove text-decoration: underline from html files
+* Fixes for angular attribute-name color
+* Fixed wrong color for custom attribute-name with dash (-)
+* Change HTML color from red to orangered to be a bit easier on eyes
+* Few fixes to Javascript operator and comparison
+* Loads of improvements to Javascript styling
+
 ## 3.1.0
 ### Dev Changes
 
