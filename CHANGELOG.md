@@ -1,3 +1,10 @@
+## 3.2.1
+
+### User Changes
+
+* Minor Javascript styling fixes
+<!-- TODO Add new screenshot -->
+
 ## 3.2.0
 
 ### User Changes
