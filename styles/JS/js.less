@@ -1,66 +1,66 @@
-.js {
-  .storage {
+.syntax--js {
+  .syntax--storage {
     color: @orange;
   }
 
-  .constant {
+  .syntax--constant {
     color: @grey;
-    &.numeric {
+    &.syntax--numeric {
       color: @red;
     }
-    &.boolean {
+    &.syntax--boolean {
       color: @blue;
     }
-    &.null {
+    &.syntax--null {
       color: @red;
     }
   }
 
-  .method-call {
-    .arguments {
-      .support.class {
+  .syntax--method-call {
+    .syntax--arguments {
+      .syntax--support.syntax--class {
         color: @grey;
       }
-      .entity.name.function {
+      .syntax--entity.syntax--name.syntax--function {
         color: @grey;
       }
     }
-    .entity.name.function {
+    .syntax--entity.syntax--name.syntax--function {
       color: @blue;
     }
   }
 
-  .function-call {
-    .entity.name.function {
+  .syntax--function-call {
+    .syntax--entity.syntax--name.syntax--function {
       color: @grey;
     }
   }
 
-  .function {
-    .entity.name.function {
+  .syntax--function {
+    .syntax--entity.syntax--name.syntax--function {
       color: @grey;
     }
   }
 
-  .keyword {
+  .syntax--keyword {
     color: @blue;
-    &.operator {
+    &.syntax--operator {
       color: @grey;
-      &.comparison {
+      &.syntax--comparison {
         color: @blue;
       }
-      &.assignment {
+      &.syntax--assignment {
         color:  @blue;
       }
     }
   }
 
-  .variable {
+  .syntax--variable {
     color: @green;
-    &.other {
+    &.syntax--other {
       color: @grey;
     }
-    &.object {
+    &.syntax--object {
       color: @grey;
     }
   }
